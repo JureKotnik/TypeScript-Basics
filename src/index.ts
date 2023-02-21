@@ -1,2 +1,3 @@
-let user:[number, string] = [1, 'Jure'];
-user.push(1);
+const enum Size {Small = 1, Medium, Large};
+let mySize: Size = Size.Medium;
+console.log(mySize);
